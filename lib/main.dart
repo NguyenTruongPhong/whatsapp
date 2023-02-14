@@ -1,28 +1,53 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_ui/colors.dart';
-import 'package:whatsapp_ui/screens/mobile_layout_screen.dart';
-import 'package:whatsapp_ui/screens/web_layout_screen.dart';
-import 'package:whatsapp_ui/utils/responsive_layout.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:whatsapp_ui/common/widgets/loader.dart';
+import 'package:whatsapp_ui/features/auth/controller/auth_controller.dart';
+import 'package:whatsapp_ui/common/screens/error_screen.dart';
+import 'package:whatsapp_ui/screens/mobile_layout_screen.dart';
+
+import 'features/models/user_model.dart';
+import 'features/landing/screens/landing_screen.dart';
+
+import 'configs/app_routes.dart';
+import 'firebase_options.dart';
+
+import 'colors.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  runApp(const ProviderScope(child: MyApp()));
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends ConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Whatsapp UI',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: backgroundColor,
+        ),
       ),
-      home: const ResponsiveLayout(
-        mobileScreenLayout: MobileLayoutScreen(),
-        webScreenLayout: WebLayoutScreen(),
-      ),
+      home: ref.watch(userDataAuthProvider).when(
+            data: (UserModel? user) {
+              if (user == null) {
+                return const LandingScreen();
+              }
+              return const MobileLayoutScreen();
+            },
+            error: (error, stackTrace) {
+              return const ErrorScreen();
+            },
+            loading: () => const Loader(),
+          ),
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
