@@ -4,9 +4,11 @@ import 'package:flutter_contacts/contact.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui/colors.dart';
+import 'package:whatsapp_ui/common/widgets/build_search_text_field.dart';
 import 'package:whatsapp_ui/features/group/controller/group_controller.dart';
 
 import '../../../common/enums/enums.dart';
+import '../../../common/providers/searching.dart';
 import '../../../common/screens/error_screen.dart';
 import '../../../common/utils/utils.dart';
 import '../../../common/widgets/loader.dart';
@@ -37,6 +39,9 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
   File? groupAvatarFile;
   List<int> groupContactsIndex = [];
 
+  bool isSearching = false;
+  final TextEditingController searchController = TextEditingController();
+
   @override
   void dispose() {
     super.dispose();
@@ -64,20 +69,20 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
   }) {
     if (groupContactsIndex.contains(contactIndex)) {
       groupContactsIndex.remove(contactIndex);
-      ref
-          .read(selectedGroupMemberContactsProvider.notifier)
-          .update((currentGroupContacts) {
-        currentGroupContacts.remove(contact);
-        return currentGroupContacts;
-      });
+      ref.read(selectedGroupMemberContactsProvider.notifier).update(
+        (currentGroupContacts) {
+          currentGroupContacts.remove(contact);
+          return currentGroupContacts;
+        },
+      );
     } else {
       groupContactsIndex.add(contactIndex);
-      ref
-          .read(selectedGroupMemberContactsProvider.notifier)
-          .update((currentGroupContacts) {
-        currentGroupContacts.add(contact);
-        return currentGroupContacts;
-      });
+      ref.read(selectedGroupMemberContactsProvider.notifier).update(
+        (currentGroupContacts) {
+          currentGroupContacts.add(contact);
+          return currentGroupContacts;
+        },
+      );
     }
     setState(() {});
   }
@@ -110,6 +115,24 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
     ref
         .read(selectedGroupMemberContactsProvider.notifier)
         .update((state) => []);
+  }
+
+  void startSearching(String query) {
+    ref.read(searchingStateProvider.notifier).update((state) => query.trim());
+    setState(() {});
+  }
+
+  void cancelSearching() {
+    isSearching = false;
+    searchController.clear();
+    ref.read(searchingStateProvider.notifier).update((state) => '');
+    setState(() {});
+  }
+
+  void clearSearching() {
+    searchController.clear();
+    ref.read(searchingStateProvider.notifier).update((state) => '');
+    setState(() {});
   }
 
   @override
@@ -163,18 +186,39 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
                     decoration:
                         const InputDecoration(hintText: 'Enter group name'),
                     controller: groupNameController,
+                    autofocus: false,
                   ),
                 ),
                 const SizedBox(
                   height: 20,
                 ),
-                const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: Text(
-                    'Select Contacts',
-                    style: TextStyle(fontSize: 18),
-                    textAlign: TextAlign.left,
-                  ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: isSearching
+                      ? BuildSearchTextField(
+                          startSearching: startSearching,
+                          clearSearching: clearSearching,
+                          cancelSearching: cancelSearching,
+                          searchController: searchController,
+                        )
+                      : Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            const Text(
+                              'Select Contacts',
+                              style: TextStyle(fontSize: 18),
+                              textAlign: TextAlign.left,
+                            ),
+                            IconButton(
+                              onPressed: () {
+                                setState(() {
+                                  isSearching = true;
+                                });
+                              },
+                              icon: const Icon(Icons.search),
+                            ),
+                          ],
+                        ),
                 ),
                 const SizedBox(
                   height: 10,
@@ -183,9 +227,19 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
                   child: ref.watch(getContactsProvider).when(
                         loading: () => const Loader(),
                         data: (List<Contact> contacts) {
+                          final List<Contact> filterContacts = contacts.where(
+                            (contact) {
+                              String query = ref
+                                  .watch(searchingStateProvider)
+                                  .toLowerCase();
+                              String name =
+                                  contact.name.toString().toLowerCase();
+                              return name.contains(query);
+                            },
+                          ).toList();
                           return ListView.builder(
                             itemBuilder: (context, index) {
-                              final Contact contact = contacts[index];
+                              final Contact contact = filterContacts[index];
                               return ContactItem(
                                 contact: contact,
                                 onTap: () => toggleGroupMembers(
@@ -195,7 +249,7 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
                                 isSelected: groupContactsIndex.contains(index),
                               );
                             },
-                            itemCount: contacts.length,
+                            itemCount: filterContacts.length,
                           );
                         },
                         error: (error, stackTrace) {
@@ -205,12 +259,14 @@ class _CreateGroupScreenState extends ConsumerState<CreateGroupScreen> {
                 )
               ],
             ),
-      floatingActionButton: isLoading ? null : FloatingActionButton(
-        backgroundColor: tabColor,
-        foregroundColor: whiteColor,
-        onPressed: createGroup,
-        child: const Icon(Icons.done),
-      ),
+      floatingActionButton: isLoading
+          ? null
+          : FloatingActionButton(
+              backgroundColor: tabColor,
+              foregroundColor: whiteColor,
+              onPressed: createGroup,
+              child: const Icon(Icons.done),
+            ),
     );
   }
 }

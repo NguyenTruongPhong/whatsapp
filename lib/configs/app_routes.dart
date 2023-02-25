@@ -14,6 +14,7 @@ import 'package:whatsapp_ui/features/status/screens/status_confirm_screen.dart';
 import 'package:whatsapp_ui/features/status/screens/status_view_screen.dart';
 import 'package:whatsapp_ui/screens/mobile_layout_screen.dart';
 
+
 class AppRoutes {
   static Route onGenerateRoute(RouteSettings settings) {
     print('on route: ${settings.name}');
@@ -38,7 +39,6 @@ class AppRoutes {
           isGroup: arguments['isGroup'] as bool,
           receiverId: arguments['receiverId'] as String,
           receiverName: arguments['receiverName'] as String,
-          
         );
       case MobileLayoutScreen.routeName:
         return MobileLayoutScreen.route();
@@ -51,6 +51,7 @@ class AppRoutes {
       case CreateGroupScreen.routeName:
         // final arguments = settings.arguments as StatusModel;
         return CreateGroupScreen.route();
+ 
       default:
         return ErrorScreen.route();
     }

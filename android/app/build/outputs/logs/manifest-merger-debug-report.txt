@@ -1,0 +1,1429 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:agora_uikit] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_uikit/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:zego_zim] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zim/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:cached_video_player] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cached_video_player/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:wakelock] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/wakelock/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:flutter_sound] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_logs] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_logs/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:video_player_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:native_device_orientation] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/native_device_orientation/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_vibrate] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_vibrate/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-52:12
+MERGED from [:audioplayers_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:sqflite] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:iris_event] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/iris_event/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:emoji_picker_flutter] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/emoji_picker_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:flutter_contacts] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_contacts/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/74f757ccb949798533f56c6651b0a3a7/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/7f040fc9e41903796b8a5efce5220eee/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/8b24c71065ae529d79fbbb9b92e7bc27/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/0dd33b642f6abc049d8d5a498b392ebf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/25162436af2a40e38cec0b46d3daf946/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/3f2ef5fda46ef974a9718ced4a4b4b0f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e88c95b83b93580679247bd39bbda70/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/72b2e893200f1ef4c5bfc883abddd2d2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/phongnguyen/.gradle/caches/transforms-3/3067e026e4086b2ea8e4cc2c4aa0fcc4/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/phongnguyen/.gradle/caches/transforms-3/9770bd8e7df7398de02d07ae4314ebd2/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/01397ac35cc151581ca2f20d3ccd6301/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/2615568936a3555acc38b3d6fca70526/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/3f3ed9c62edbb16a2f64b750c5850b87/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/b565f601c6f72add114012dab101b63c/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/f7ec3473fa6d15bd9a1a4683f831cde3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/5cefd1887b763dc1e49a6f04e1a2e497/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/d33698e55e364cee99250cd60150b505/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/285729a20690b00bc6f7d66deb816c25/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/0ee1b82540f4759af2b8676dae60558a/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.work:work-rxjava2:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/4ec3fde9ed2c1ed198d2b639238f47bc/transformed/work-rxjava2-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.media:media:1.6.0] /Users/phongnguyen/.gradle/caches/transforms-3/e8325b5d2c10cb9e362df29b3364ab7e/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/66cd37415d8378ea413ba4943f0f2643/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/f0f0862dcd977954691180a96997eaf7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7ebfcd8b0af9c495193e0ab30ecf7cd/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/df5e7530925af51bcc975ae0a41f994c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9711fd21188f03cf0212888ca29020ab/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/c3d0eea0c6829dfc1ee1c3c7458e9624/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/efecc4a98b7ac1d1e0f64b7395287a64/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/8db3ac3c6c5cc2db73e4befaacfb1f6d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/phongnguyen/.gradle/caches/transforms-3/42a87c0b3f33289183ef6a13b13c0209/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/69d6c6ec271d184dbc3308b55516a370/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/a98fcdf3d36f26f2af6471c7cd55e0b0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/2eab7ec98e659d281cf251b6deba04f4/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b0b27bfce29f61cc4e918695a2b68f3d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/65d914afda8b0ce5b9e00bb184ebbfbc/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/3a8d7eda48db106879150e5877647a82/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/20831bcc83f5afd90231fc11dc7743e9/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b4b508cbe1581695cbfac2b21419404f/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/84f2d678385de47f0f61341dbeb53db8/transformed/jetified-lifecycle-service-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/1995d3265ebffb66db49fbbcb633f680/transformed/lifecycle-reactivestreams-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/2fc408864555053d32ec2799641764fb/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/a721a32b4bd72a969be2f344c0cda28c/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/e725f9ee730cd884ee618790f7c0a290/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/93f51ef91e2a8ff4a3c3b8f50ab2ff09/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/792401ce117afc433462fd17b39dd59a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/34e698b1f170c4ec6db4ad050f5b6292/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b2c112d9c49f1dc4afd8b3e0fc56176b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b0baf1021d8f7151ad8fe6e715e82658/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/e7a228d8559eaeb080606c3a3d5f4225/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7272b648560ce4068375a456a092f93/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.agora.rtm:rtm-sdk:1.5.3] /Users/phongnguyen/.gradle/caches/transforms-3/a1022389629d8c2175abac07f3b4e14d/transformed/jetified-rtm-sdk-1.5.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.zegolibrary:zim:2.5.0] /Users/phongnguyen/.gradle/caches/transforms-3/e109f58d8b620ef8dae5bd08947e3d29/transformed/jetified-zim-2.5.0/AndroidManifest.xml:2:1-11:12
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:2:1-144:12
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/phongnguyen/.gradle/caches/transforms-3/e8dc4a0887250e7b372147eac97a0045/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.agora.rtc:iris-rtc:4.1.0-rc.2] /Users/phongnguyen/.gradle/caches/transforms-3/bebd7e5e534165754270d0c97370a2d4/transformed/jetified-iris-rtc-4.1.0-rc.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.agora.rtc:full-sdk:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/5c64ebc0d82bb9644c2b0473f2718af9/transformed/jetified-full-sdk-4.1.0-1/AndroidManifest.xml:2:1-11:12
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:2:1-20:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/c95cc03c16e66c71395bf5277c58a527/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [io.agora.rtc:iris-event-flutter:2.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/af607267654a37c762d9795fca5e5ae6/transformed/jetified-iris-event-flutter-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [im.zego:express-video:3.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/5a7fdd9d835dc82e17877a0471f33fda/transformed/jetified-express-video-3.2.0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7f625e865b2f6cb23e49e6969ca5fcfb/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/4944e45e464c26365027a047d6798bf1/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:70-103
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:2:3-74
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-76
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-76
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:12:5-76
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:2:20-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:3:3-79
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:9:5-81
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:3:20-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:4:3-66
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:11:5-68
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:11:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:12:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:12:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:4:20-63
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:5:3-69
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:5:20-67
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:6:3-70
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:6:20-68
+uses-permission#android.permission.INTERNET
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:7:3-64
+MERGED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:7:3-64
+MERGED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:7:3-64
+MERGED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:11:3-65
+MERGED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:11:3-65
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:10:5-67
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:10:5-67
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:7:20-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:8:3-69
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-71
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:8:20-66
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:9:3-75
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:7:5-77
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:9:20-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:10:3-72
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-75
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-75
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:13:5-75
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:13:5-75
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:13:5-75
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:10:20-70
+uses-permission#android.permission.CAMERA
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:13:3-63
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-65
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:13:20-60
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:14:3-78
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:13:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:14:20-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:15:3-77
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-79
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-79
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:12:5-79
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/0ee1b82540f4759af2b8676dae60558a/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/0ee1b82540f4759af2b8676dae60558a/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b4b508cbe1581695cbfac2b21419404f/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b4b508cbe1581695cbfac2b21419404f/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:11:5-79
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/phongnguyen/.gradle/caches/transforms-3/e8dc4a0887250e7b372147eac97a0045/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/phongnguyen/.gradle/caches/transforms-3/e8dc4a0887250e7b372147eac97a0045/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:15:20-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:17:3-66
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-68
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:17:20-63
+application
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:18:3-39:17
+MERGED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-18:19
+MERGED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-18:19
+MERGED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-50:19
+MERGED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-50:19
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-28:19
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-28:19
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:15:5-19:19
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:15:5-19:19
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:9:5-16:19
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:9:5-16:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/0dd33b642f6abc049d8d5a498b392ebf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/0dd33b642f6abc049d8d5a498b392ebf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/25162436af2a40e38cec0b46d3daf946/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/25162436af2a40e38cec0b46d3daf946/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e88c95b83b93580679247bd39bbda70/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e88c95b83b93580679247bd39bbda70/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/phongnguyen/.gradle/caches/transforms-3/3067e026e4086b2ea8e4cc2c4aa0fcc4/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/phongnguyen/.gradle/caches/transforms-3/3067e026e4086b2ea8e4cc2c4aa0fcc4/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/a98fcdf3d36f26f2af6471c7cd55e0b0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/a98fcdf3d36f26f2af6471c7cd55e0b0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:24:5-142:19
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:24:5-142:19
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:9:5-19:19
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:9:5-19:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:18:16-43
+	android:icon
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:18:44-78
+activity#com.example.whatsapp_ui.MainActivity
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:5-35:16
+	android:launchMode
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:44-74
+	android:hardwareAccelerated
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:261-295
+	android:windowSoftInputMode
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:296-338
+	android:configChanges
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:110-260
+	android:theme
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:75-109
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:15-43
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:24:7-114
+	android:resource
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:24:74-111
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:24:18-73
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:30:7-132
+	android:resource
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:30:83-129
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:30:18-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:31:7-34:23
+action#android.intent.action.MAIN
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:32:9-60
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:32:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:33:9-68
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:33:19-66
+meta-data#flutterEmbedding
+ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:38:5-68
+	android:value
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:38:48-65
+	android:name
+		ADDED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:38:16-47
+uses-sdk
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:agora_uikit] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_uikit/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:agora_uikit] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_uikit/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:agora_rtm] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtm/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_zim] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zim/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_zim] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zim/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cached_video_player] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cached_video_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cached_video_player] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cached_video_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:wakelock] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/wakelock/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:wakelock] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/wakelock/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_sound] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sound] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_logs] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_logs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_logs] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_logs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:native_device_orientation] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/native_device_orientation/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:native_device_orientation] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/native_device_orientation/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_vibrate] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_vibrate/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_vibrate] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_vibrate/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:audioplayers_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:sqflite] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:iris_event] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/iris_event/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:iris_event] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/iris_event/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:emoji_picker_flutter] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/emoji_picker_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:emoji_picker_flutter] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/emoji_picker_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_contacts] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_contacts/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_contacts] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/flutter_contacts/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/74f757ccb949798533f56c6651b0a3a7/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/74f757ccb949798533f56c6651b0a3a7/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:5:5-7:41
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /Users/phongnguyen/.gradle/caches/transforms-3/042af45161555c2d3fa5478828097587/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/7f040fc9e41903796b8a5efce5220eee/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/7f040fc9e41903796b8a5efce5220eee/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/8b24c71065ae529d79fbbb9b92e7bc27/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/8b24c71065ae529d79fbbb9b92e7bc27/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/0dd33b642f6abc049d8d5a498b392ebf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/0dd33b642f6abc049d8d5a498b392ebf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/25162436af2a40e38cec0b46d3daf946/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/25162436af2a40e38cec0b46d3daf946/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/3f2ef5fda46ef974a9718ced4a4b4b0f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/3f2ef5fda46ef974a9718ced4a4b4b0f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e88c95b83b93580679247bd39bbda70/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e88c95b83b93580679247bd39bbda70/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/72b2e893200f1ef4c5bfc883abddd2d2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/72b2e893200f1ef4c5bfc883abddd2d2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/phongnguyen/.gradle/caches/transforms-3/3067e026e4086b2ea8e4cc2c4aa0fcc4/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/phongnguyen/.gradle/caches/transforms-3/3067e026e4086b2ea8e4cc2c4aa0fcc4/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/phongnguyen/.gradle/caches/transforms-3/9770bd8e7df7398de02d07ae4314ebd2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/phongnguyen/.gradle/caches/transforms-3/9770bd8e7df7398de02d07ae4314ebd2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/01397ac35cc151581ca2f20d3ccd6301/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/01397ac35cc151581ca2f20d3ccd6301/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/2615568936a3555acc38b3d6fca70526/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/2615568936a3555acc38b3d6fca70526/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/3f3ed9c62edbb16a2f64b750c5850b87/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/3f3ed9c62edbb16a2f64b750c5850b87/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/b565f601c6f72add114012dab101b63c/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/b565f601c6f72add114012dab101b63c/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/f7ec3473fa6d15bd9a1a4683f831cde3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/f7ec3473fa6d15bd9a1a4683f831cde3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/5cefd1887b763dc1e49a6f04e1a2e497/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/5cefd1887b763dc1e49a6f04e1a2e497/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/d33698e55e364cee99250cd60150b505/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/d33698e55e364cee99250cd60150b505/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/285729a20690b00bc6f7d66deb816c25/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/285729a20690b00bc6f7d66deb816c25/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/0ee1b82540f4759af2b8676dae60558a/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/0ee1b82540f4759af2b8676dae60558a/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/4ec3fde9ed2c1ed198d2b639238f47bc/transformed/work-rxjava2-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/4ec3fde9ed2c1ed198d2b639238f47bc/transformed/work-rxjava2-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.6.0] /Users/phongnguyen/.gradle/caches/transforms-3/e8325b5d2c10cb9e362df29b3364ab7e/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /Users/phongnguyen/.gradle/caches/transforms-3/e8325b5d2c10cb9e362df29b3364ab7e/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/66cd37415d8378ea413ba4943f0f2643/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/phongnguyen/.gradle/caches/transforms-3/66cd37415d8378ea413ba4943f0f2643/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/f0f0862dcd977954691180a96997eaf7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/f0f0862dcd977954691180a96997eaf7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7ebfcd8b0af9c495193e0ab30ecf7cd/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7ebfcd8b0af9c495193e0ab30ecf7cd/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/df5e7530925af51bcc975ae0a41f994c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/df5e7530925af51bcc975ae0a41f994c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9711fd21188f03cf0212888ca29020ab/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9711fd21188f03cf0212888ca29020ab/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/c3d0eea0c6829dfc1ee1c3c7458e9624/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/c3d0eea0c6829dfc1ee1c3c7458e9624/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/efecc4a98b7ac1d1e0f64b7395287a64/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/efecc4a98b7ac1d1e0f64b7395287a64/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/8db3ac3c6c5cc2db73e4befaacfb1f6d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/8db3ac3c6c5cc2db73e4befaacfb1f6d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/phongnguyen/.gradle/caches/transforms-3/42a87c0b3f33289183ef6a13b13c0209/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/phongnguyen/.gradle/caches/transforms-3/42a87c0b3f33289183ef6a13b13c0209/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/69d6c6ec271d184dbc3308b55516a370/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/69d6c6ec271d184dbc3308b55516a370/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/a98fcdf3d36f26f2af6471c7cd55e0b0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/a98fcdf3d36f26f2af6471c7cd55e0b0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/2eab7ec98e659d281cf251b6deba04f4/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/2eab7ec98e659d281cf251b6deba04f4/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b0b27bfce29f61cc4e918695a2b68f3d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b0b27bfce29f61cc4e918695a2b68f3d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/65d914afda8b0ce5b9e00bb184ebbfbc/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/65d914afda8b0ce5b9e00bb184ebbfbc/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/3a8d7eda48db106879150e5877647a82/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/3a8d7eda48db106879150e5877647a82/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/20831bcc83f5afd90231fc11dc7743e9/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/20831bcc83f5afd90231fc11dc7743e9/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b4b508cbe1581695cbfac2b21419404f/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/phongnguyen/.gradle/caches/transforms-3/b4b508cbe1581695cbfac2b21419404f/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/84f2d678385de47f0f61341dbeb53db8/transformed/jetified-lifecycle-service-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/84f2d678385de47f0f61341dbeb53db8/transformed/jetified-lifecycle-service-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/1995d3265ebffb66db49fbbcb633f680/transformed/lifecycle-reactivestreams-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/1995d3265ebffb66db49fbbcb633f680/transformed/lifecycle-reactivestreams-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/2fc408864555053d32ec2799641764fb/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/2fc408864555053d32ec2799641764fb/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/a721a32b4bd72a969be2f344c0cda28c/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/a721a32b4bd72a969be2f344c0cda28c/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/e725f9ee730cd884ee618790f7c0a290/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/e725f9ee730cd884ee618790f7c0a290/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/93f51ef91e2a8ff4a3c3b8f50ab2ff09/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/93f51ef91e2a8ff4a3c3b8f50ab2ff09/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/792401ce117afc433462fd17b39dd59a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/792401ce117afc433462fd17b39dd59a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/34e698b1f170c4ec6db4ad050f5b6292/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/34e698b1f170c4ec6db4ad050f5b6292/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b2c112d9c49f1dc4afd8b3e0fc56176b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b2c112d9c49f1dc4afd8b3e0fc56176b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b0baf1021d8f7151ad8fe6e715e82658/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/b0baf1021d8f7151ad8fe6e715e82658/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/e7a228d8559eaeb080606c3a3d5f4225/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/e7a228d8559eaeb080606c3a3d5f4225/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7272b648560ce4068375a456a092f93/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/b7272b648560ce4068375a456a092f93/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.agora.rtm:rtm-sdk:1.5.3] /Users/phongnguyen/.gradle/caches/transforms-3/a1022389629d8c2175abac07f3b4e14d/transformed/jetified-rtm-sdk-1.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtm:rtm-sdk:1.5.3] /Users/phongnguyen/.gradle/caches/transforms-3/a1022389629d8c2175abac07f3b4e14d/transformed/jetified-rtm-sdk-1.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zegolibrary:zim:2.5.0] /Users/phongnguyen/.gradle/caches/transforms-3/e109f58d8b620ef8dae5bd08947e3d29/transformed/jetified-zim-2.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zegolibrary:zim:2.5.0] /Users/phongnguyen/.gradle/caches/transforms-3/e109f58d8b620ef8dae5bd08947e3d29/transformed/jetified-zim-2.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/phongnguyen/.gradle/caches/transforms-3/e8dc4a0887250e7b372147eac97a0045/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/phongnguyen/.gradle/caches/transforms-3/e8dc4a0887250e7b372147eac97a0045/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.agora.rtc:iris-rtc:4.1.0-rc.2] /Users/phongnguyen/.gradle/caches/transforms-3/bebd7e5e534165754270d0c97370a2d4/transformed/jetified-iris-rtc-4.1.0-rc.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:iris-rtc:4.1.0-rc.2] /Users/phongnguyen/.gradle/caches/transforms-3/bebd7e5e534165754270d0c97370a2d4/transformed/jetified-iris-rtc-4.1.0-rc.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/5c64ebc0d82bb9644c2b0473f2718af9/transformed/jetified-full-sdk-4.1.0-1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/5c64ebc0d82bb9644c2b0473f2718af9/transformed/jetified-full-sdk-4.1.0-1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:5:5-73
+MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:5:5-73
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/c95cc03c16e66c71395bf5277c58a527/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/c95cc03c16e66c71395bf5277c58a527/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.agora.rtc:iris-event-flutter:2.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/af607267654a37c762d9795fca5e5ae6/transformed/jetified-iris-event-flutter-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:iris-event-flutter:2.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/af607267654a37c762d9795fca5e5ae6/transformed/jetified-iris-event-flutter-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [im.zego:express-video:3.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/5a7fdd9d835dc82e17877a0471f33fda/transformed/jetified-express-video-3.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [im.zego:express-video:3.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/5a7fdd9d835dc82e17877a0471f33fda/transformed/jetified-express-video-3.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7f625e865b2f6cb23e49e6969ca5fcfb/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7f625e865b2f6cb23e49e6969ca5fcfb/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/4944e45e464c26365027a047d6798bf1/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/phongnguyen/.gradle/caches/transforms-3/4944e45e464c26365027a047d6798bf1/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/phongnguyen/Desktop/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: io.agora.agorartm requested WRITE_EXTERNAL_STORAGE
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:18:5-80
+MERGED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:18:5-80
+receiver#com.example.zego_zpns.internal.ZPNsPluginEventHandler
+ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-17:20
+	android:enabled
+		ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-81
+intent-filter#action:name:im.zego.zim.zpns.intent.action.MESSAGE
+ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:29
+action#im.zego.zim.zpns.intent.action.MESSAGE
+ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-81
+	android:name
+		ADDED from [:zego_zpns] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_zpns/intermediates/merged_manifest/debug/AndroidManifest.xml:15:25-78
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-21:47
+	tools:ignore
+		ADDED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from [:agora_rtc_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/agora_rtc_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-70
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-89
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-86
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-63
+receiver#me.carda.awesome_notifications.DartNotificationActionReceiver
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-89
+receiver#me.carda.awesome_notifications.DartDismissedNotificationReceiver
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-92
+receiver#me.carda.awesome_notifications.DartScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-23:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-92
+receiver#me.carda.awesome_notifications.DartRefreshSchedulesReceiver
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-38:20
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-87
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-79
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-84
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:35:25-79
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-107
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:36:25-104
+service#me.carda.awesome_notifications.DartBackgroundService
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:72
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-80
+service#me.carda.awesome_notifications.core.services.ForegroundService
+ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-49:43
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:10:9-15:43
+MERGED from [me.carda:androidcore:0.7.7] /Users/phongnguyen/.gradle/caches/transforms-3/313c8a5038c52fdbcd739a3e9b6261ec/transformed/jetified-androidcore-0.7.7/AndroidManifest.xml:10:9-15:43
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-37
+	android:stopWithTask
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-40
+	android:foregroundServiceType
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-54
+	android:name
+		ADDED from [:awesome_notifications] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-90
+activity#im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity
+ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-17:64
+	android:screenOrientation
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-49
+	android:exported
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+	android:configChanges
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-59
+	android:theme
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-61
+	android:name
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-118
+service#im.zego.internal.screencapture.ZegoScreenCaptureService
+ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-27:19
+	android:enabled
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+	android:foregroundServiceType
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-60
+	android:name
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-83
+intent-filter#action:name:android.intent.action.screenshare
+ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+action#android.intent.action.screenshare
+ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from [:zego_express_engine] /Users/phongnguyen/Desktop/whatsapp-flutter-ui/build/zego_express_engine/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-73
+service#org.eclipse.paho.android.service.MqttService
+ADDED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:18:9-80
+	android:name
+		ADDED from [com.github.umair13adil:RxLogs:1.0.18] /Users/phongnguyen/.gradle/caches/transforms-3/e752704c029cb34494b9380ca33975a2/transformed/jetified-RxLogs-1.0.18/AndroidManifest.xml:18:18-77
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/315c5bed1ccb7b0ceacfcfd09a645fee/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] /Users/phongnguyen/.gradle/caches/transforms-3/18ae0eb3cc44023e3e5f3059100e3f86/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/9505bd39f63afb38b67c27958faa20fd/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/phongnguyen/.gradle/caches/transforms-3/7e38d50b61c1522f1a0752dc6239b4a6/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/phongnguyen/.gradle/caches/transforms-3/de71a698fec731280f469339945d5bfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/phongnguyen/.gradle/caches/transforms-3/783a699ee15af57cd1ffbe4f3c73d426/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/phongnguyen/.gradle/caches/transforms-3/bcf3f59d3662487316bd04402004254f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/phongnguyen/.gradle/caches/transforms-3/cf57d1936a35bfa5ecebab59aa3c5ab5/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/phongnguyen/.gradle/caches/transforms-3/e8f6f76a8bb057a915d9a97813f2a466/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/c31afb9c27a985502f6c50417c82c3d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.whatsapp_ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.whatsapp_ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/phongnguyen/.gradle/caches/transforms-3/039782b220833777b47e49be8d9bb389/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.5.1] /Users/phongnguyen/.gradle/caches/transforms-3/5c9c9241353a56a9ffd1282391bd743c/transformed/jetified-lifecycle-process-2.5.1/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/phongnguyen/.gradle/caches/transforms-3/a04dbfbd1772f3ec1e65ad480a49473f/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.GET_TASKS
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:14:22-65
+queries
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:17:5-21:15
+intent#action:name:com.huawei.hms.core.aidlservice
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:18:9-20:18
+action#com.huawei.hms.core.aidlservice
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:19:13-70
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:19:21-67
+service#com.xiaomi.push.service.XMJobService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:27:9-32:46
+	android:process
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:32:13-43
+	android:enabled
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:30:13-37
+	android:permission
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:28:13-64
+service#im.zego.zpns.internal.receiver.FCMMessageService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:35:9-41:19
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:36:13-76
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:38:13-40:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:39:25-75
+service#com.xiaomi.push.service.XMPushService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:42:9-46:46
+	android:process
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:46:13-43
+	android:enabled
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:43:13-65
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:47:9-50:39
+	android:enabled
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:48:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:51:9-54:39
+	android:enabled
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:52:13-70
+receiver#com.xiaomi.push.service.receivers.NetworkStatusReceiver
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:56:9-64:20
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:57:13-83
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+category:name:android.intent.category.DEFAULT
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:59:13-63:29
+receiver#com.xiaomi.push.service.receivers.PingReceiver
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:65:9-72:20
+	android:process
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:68:13-43
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:66:13-74
+intent-filter#action:name:com.xiaomi.push.PING_TIMER
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:69:13-71:29
+action#com.xiaomi.push.PING_TIMER
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:70:17-69
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:70:25-66
+receiver#im.zego.zpns.internal.receiver.XiaoMiMessageReceiver
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:73:9-85:20
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:74:13-80
+intent-filter#action:name:com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:76:13-78:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:77:25-73
+intent-filter#action:name:com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:79:13-81:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:80:25-73
+intent-filter#action:name:com.xiaomi.mipush.ERROR
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:82:13-84:29
+action#com.xiaomi.mipush.ERROR
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:83:17-66
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:83:25-63
+meta-data#com.huawei.hms.client.channel.androidMarket
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:90:9-92:37
+	android:value
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:92:13-34
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:91:13-71
+service#im.zego.zpns.internal.receiver.HuaWeiMessageService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:94:9-100:19
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:95:13-79
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:97:13-99:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:98:17-81
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:98:25-78
+service#im.zego.zpns.internal.receiver.OppoDataMessage
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:105:9-113:19
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:107:13-36
+	android:permission
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:108:13-77
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:106:13-74
+intent-filter#action:name:com.heytap.mcs.action.RECEIVE_MCS_MESSAGE+action:name:com.heytap.msp.push.RECEIVE_MCS_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:109:13-112:29
+action#com.heytap.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:110:17-84
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:110:25-81
+action#com.heytap.msp.push.RECEIVE_MCS_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:111:17-82
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:111:25-79
+service#im.zego.zpns.internal.receiver.OppoCompatibleDataService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:114:9-121:19
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:116:13-36
+	android:permission
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:117:13-77
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:115:13-84
+intent-filter#action:name:com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:118:13-120:29
+action#com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:119:17-85
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:119:25-82
+receiver#im.zego.zpns.internal.receiver.VivoMessageReceiver
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:126:9-134:20
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:127:13-78
+intent-filter#action:name:com.vivo.pushclient.action.RECEIVE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:129:13-133:29
+action#com.vivo.pushclient.action.RECEIVE
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:132:17-77
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:132:25-74
+service#com.vivo.push.sdk.service.CommandClientService
+ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:136:9-139:71
+	android:exported
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:138:13-36
+	android:permission
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:139:13-68
+	android:name
+		ADDED from [im.zego:zpns:2.2.0] /Users/phongnguyen/.gradle/caches/transforms-3/60f959fbac07fcd37f1fd4b5531f55de/transformed/jetified-zpns-2.2.0/AndroidManifest.xml:137:13-74
+activity#io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity
+ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:9-13:63
+	android:screenOrientation
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:12:13-49
+	android:configChanges
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:11:13-59
+	android:theme
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:13:13-61
+	android:name
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:19-89
+service#io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService
+ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:15:9-18:19
+	android:foregroundServiceType
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:17:13-60
+	android:name
+		ADDED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /Users/phongnguyen/.gradle/caches/transforms-3/6ea5e98d89b851a3d9e43eec454604d3/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:16:13-73
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/phongnguyen/.gradle/caches/transforms-3/930691d5c25e754ef278e910c5cbbd14/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

@@ -33,8 +33,6 @@ class ChatRepository {
     required this.firebaseFirestore,
   });
 
-  
-
   Future<ChatContactModel> getSingleChatContact(String receiverId) async {
     return await firebaseFirestore
         .collection('users')
@@ -212,12 +210,12 @@ class ChatRepository {
     required String messageId,
     required String receiverName,
     required int? replyMessageItemIndex,
-    required int? currentChatLengths,
+    required int? chatLengthsAtTimeSent,
     required String? replyText,
     required String? replyTitle,
     required MessageTypeEnum? replyMessageType,
     required bool? isReplyToYourself,
-    required String? senderNameOfReplyMessage,
+    required String? ownerNameOfReplyMessage,
     required ProviderRef ref,
     required List<String> membersSeenMessageUId,
   }) async {
@@ -238,8 +236,8 @@ class ChatRepository {
       replyText: replyText,
       replyTitle: replyTitle,
       isReplyToYourself: isReplyToYourself,
-      currentChatLengths: currentChatLengths,
-      senderNameOfReplyMessage: senderNameOfReplyMessage,
+      currentChatLengths: chatLengthsAtTimeSent,
+      senderNameOfReplyMessage: ownerNameOfReplyMessage,
       membersSeenMessageUId: membersSeenMessageUId,
     );
     await firebaseFirestore
@@ -309,11 +307,11 @@ class ChatRepository {
               messageType: MessageTypeEnum.text,
               messageId: messageId,
               receiverName: receiverName,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              ownerNameOfReplyMessage: messageReplyData?.ownerMessageName,
               replyMessageItemIndex: messageReplyData?.replyMessageItemIndex,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
+              chatLengthsAtTimeSent: messageReplyData?.chatLengthsAtTimeSent,
               replyText: messageReplyData?.message,
-              replyTitle: messageReplyData?.message,
+              replyTitle: messageReplyData?.title,
               replyMessageType: messageReplyData?.messageType,
               isReplyToYourself: messageReplyData?.isReplyToMe,
               ref: ref,
@@ -331,8 +329,8 @@ class ChatRepository {
               replyText: messageReplyData?.message,
               replyTitle: messageReplyData?.title,
               isReplyToYourself: messageReplyData?.isReplyToMe,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              currentChatLengths: messageReplyData?.chatLengthsAtTimeSent,
+              senderNameOfReplyMessage: messageReplyData?.ownerMessageName,
               ref: ref,
             );
     } catch (e) {
@@ -432,11 +430,11 @@ class ChatRepository {
               messageType: messageType,
               messageId: messageId,
               receiverName: receiverName,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              ownerNameOfReplyMessage: messageReplyData?.ownerMessageName,
               replyMessageItemIndex: messageReplyData?.replyMessageItemIndex,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
+              chatLengthsAtTimeSent: messageReplyData?.chatLengthsAtTimeSent,
               replyText: messageReplyData?.message,
-              replyTitle: messageReplyData?.message,
+              replyTitle: messageReplyData?.title,
               replyMessageType: messageReplyData?.messageType,
               isReplyToYourself: messageReplyData?.isReplyToMe,
               ref: ref,
@@ -454,8 +452,8 @@ class ChatRepository {
               replyText: messageReplyData?.message,
               replyTitle: messageReplyData?.title,
               isReplyToYourself: messageReplyData?.isReplyToMe,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              currentChatLengths: messageReplyData?.chatLengthsAtTimeSent,
+              senderNameOfReplyMessage: messageReplyData?.ownerMessageName,
               ref: ref,
             );
     } catch (e) {
@@ -526,11 +524,11 @@ class ChatRepository {
               messageType: MessageTypeEnum.gif,
               messageId: messageId,
               receiverName: receiverName,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              ownerNameOfReplyMessage: messageReplyData?.ownerMessageName,
               replyMessageItemIndex: messageReplyData?.replyMessageItemIndex,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
+              chatLengthsAtTimeSent: messageReplyData?.chatLengthsAtTimeSent,
               replyText: messageReplyData?.message,
-              replyTitle: messageReplyData?.message,
+              replyTitle: messageReplyData?.title,
               replyMessageType: messageReplyData?.messageType,
               isReplyToYourself: messageReplyData?.isReplyToMe,
               ref: ref,
@@ -548,8 +546,8 @@ class ChatRepository {
               replyText: messageReplyData?.message,
               replyTitle: messageReplyData?.title,
               isReplyToYourself: messageReplyData?.isReplyToMe,
-              currentChatLengths: messageReplyData?.replyMessageItemIndex,
-              senderNameOfReplyMessage: messageReplyData?.messageSenderName,
+              currentChatLengths: messageReplyData?.chatLengthsAtTimeSent,
+              senderNameOfReplyMessage: messageReplyData?.ownerMessageName,
               ref: ref,
             );
     } catch (e) {

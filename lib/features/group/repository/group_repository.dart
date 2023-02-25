@@ -204,104 +204,6 @@ class GroupRepository {
       }).then(
         (value) => print('update group members seen for message succeeded.'),
       );
-      // // update last message first
-      // await firebaseFirestore
-      //     .collection('groups')
-      //     .doc(groupId)
-      //     .collection('messages')
-      //     .doc()
-      //     // .orderBy('timeSent', descending: true)
-      //     // .limit(1)
-      //     .get()
-      //     .then(
-      //   (doc) async {
-      //     // final List<String> currentMembersSeenMessageUId =
-      //     //     await firebaseFirestore
-      //     //         .collection('groups')
-      //     //         .doc(groupId)
-      //     //         .collection('messages')
-      //     //         .doc(documents.docs[0].data()['messageId'])
-      //     //         .get()
-      //     //         .then(
-      //     //           (doc) => List<String>.from((doc
-      //     //               .data()!['membersSeenMessageUId']) as List<dynamic>),
-      //     //         );
-
-      //     final List<String> currentMembersSeenMessageUId = List<String>.from(
-      //         (doc.data()!['membersSeenMessageUId']) as List<dynamic>);
-
-      //     await firebaseFirestore
-      //         .collection('groups')
-      //         .doc(groupId)
-      //         .collection('messages')
-      //         .doc(documents.docs[0].data()['messageId'])
-      //         .update({
-      //       'membersSeenMessageUId': [
-      //         currentUserUId,
-      //         ...currentMembersSeenMessageUId
-      //       ]
-      //     }).then((value) => 'update members seen for last message succeeded.');
-      //   },
-      // );
-      // // get all seen messages Id
-      // final List<String> seenMessageIds = await firebaseFirestore
-      //     .collection('groups')
-      //     .doc(groupId)
-      //     .collection('messages')
-      //     .where('membersSeenMessageUId', arrayContains: currentUserUId)
-      //     .get()
-      //     .then(
-      //   (documents) {
-      //     return documents.docs
-      //         .map(
-      //           (doc) => (doc.data()['messageId'] as String),
-      //         )
-      //         .toList();
-      //   },
-      // );
-
-      // //update members seen for unseen messages
-      // firebaseFirestore
-      //     .collection('groups')
-      //     .doc(groupId)
-      //     .collection('messages')
-      //     .where('messageId', whereNotIn: seenMessageIds)
-      //     .get()
-      //     .then(
-      //   (documents) async {
-      //     if (documents.docs.isEmpty) {
-      //       return;
-      //     }
-      //     for (var doc in documents.docs) {
-      //       final List<String> currentMembersSeenMessageUId =
-      //           await firebaseFirestore
-      //               .collection('groups')
-      //               .doc(groupId)
-      //               .collection('messages')
-      //               .doc(doc.data()['messageId'] as String)
-      //               .get()
-      //               .then(
-      //                 (doc) => List<String>.from(
-      //                   (doc.data()!['membersSeenMessageUId'] as List<dynamic>),
-      //                 ),
-      //               );
-
-      //       firebaseFirestore
-      //           .collection('groups')
-      //           .doc(groupId)
-      //           .collection('messages')
-      //           .doc(doc.data()['messageId'] as String)
-      //           .update({
-      //         'membersSeenMessageUId': [
-      //           currentUserUId,
-      //           ...currentMembersSeenMessageUId
-      //         ]
-      //       });
-      //     }
-      //   },
-      // ).then(
-      //   (value) => print('update members seen for another messages succeeded.'),
-      // );
     } catch (e) {
       debugPrint(e.toString());
       rethrow;
@@ -320,5 +222,34 @@ class GroupRepository {
               .map((snap) => UserModel.fromSnapshot(snap))
               .toList(),
         );
+  }
+
+  Future<List<UserModel>> getGroupMembersData({
+    required BuildContext context,
+    required String groupId,
+  }) async {
+    late final List<String> groupMemberUIds;
+    try {
+      await firebaseFirestore.collection('groups').doc(groupId).get().then(
+            (doc) => groupMemberUIds =
+                List<String>.from(doc.data()!['memberIds'] as List<dynamic>),
+          );
+      final a = await firebaseFirestore
+          .collection('users')
+          .where('uid', whereIn: groupMemberUIds)
+          .get()
+          .then((documents) {
+        return documents.docs.map(
+          (snap) {
+            return UserModel.fromSnapshot(snap);
+          },
+        ).toList();
+      });
+
+      return a;
+    } catch (e) {
+      debugPrint(e.toString());
+      rethrow;
+    }
   }
 }

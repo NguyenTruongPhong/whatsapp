@@ -12,8 +12,10 @@ final authControllerProvider = Provider((ref) {
   return AuthController(authRepository: authRepository, providerRef: ref);
 });
 
-final userDataAuthProvider = FutureProvider((ref) {
-  return ref.watch<AuthController>(authControllerProvider).getCurrentUserData();
+final userDataAuthProvider = FutureProvider<UserModel?>((ref) {
+  return ref
+      .watch<AuthController>(authControllerProvider)
+      .getCurrentUserDataOrByUId();
 });
 
 class AuthController {
@@ -25,8 +27,8 @@ class AuthController {
     required this.providerRef,
   });
 
-  Future<UserModel?> getCurrentUserData() async {
-    return await authRepository.getCurrentUserDataOrByUId();
+  Future<UserModel?> getCurrentUserDataOrByUId([String? uid]) async {
+    return await authRepository.getCurrentUserDataOrByUId(uid);
   }
 
   Future<void> singInWithPhoneNumber(
@@ -79,6 +81,4 @@ class AuthController {
   String getCurrentUserUId() {
     return authRepository.getCurrentUserUId();
   }
-
-
 }

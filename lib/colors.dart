@@ -15,4 +15,5 @@ const greyColor = Colors.grey;
 const blackColor = Colors.black;
 const whiteColor = Colors.white;
 const greenColor = Colors.green;
+const redColor = Colors.red;
 const transparentColor = Colors.transparent;

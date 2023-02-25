@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -166,15 +167,19 @@ class _ReplyMessageState extends ConsumerState<ReplyMessage> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            ref.read(jumpToChatListItemProvider.notifier).update(
+                            ref
+                                .read(jumpToChatListItemProvider.notifier)
+                                .update(
                                   (state) => JumpToChatListItem(
                                     replyMessageItemIndex:
                                         widget.replyMessageItemIndex,
                                     presentsChatLengths:
                                         widget.presentChatLengths,
-                                    currentChatLengths: widget.currentChatLengths,
+                                    chatLengthsAtTimeSent:
+                                        widget.currentChatLengths,
                                   ),
                                 );
+                            
                           },
                           child: BuildReplyTitleAndSummary(
                             isSenderMessage: widget.isSenderMessage,
@@ -303,10 +308,12 @@ class BuildShowMembersSeenMessage extends StatelessWidget {
                           .map(
                             (seenMessageMember) => Padding(
                               padding: const EdgeInsets.all(2.0),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundImage: NetworkImage(
-                                  seenMessageMember.profilePicUrl,
+                              child: CachedNetworkImage(
+                                imageUrl: seenMessageMember.profilePicUrl,
+                                imageBuilder: (context, imageProvider) =>
+                                    CircleAvatar(
+                                  radius: 8,
+                                  backgroundImage: imageProvider,
                                 ),
                               ),
                             ),
@@ -492,10 +499,11 @@ class BuildMessageAvatar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
-      radius: 15,
-      backgroundImage: NetworkImage(
-        widget.avatarUrl!,
+    return CachedNetworkImage(
+      imageUrl: widget.avatarUrl!,
+      imageBuilder: (context, imageProvider) => CircleAvatar(
+        radius: 15,
+        backgroundImage: imageProvider,
       ),
     );
   }

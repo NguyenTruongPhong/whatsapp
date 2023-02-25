@@ -7,8 +7,8 @@ class MessageReply {
   final MessageTypeEnum messageType;
   final String title;
   final int replyMessageItemIndex;
-  final int currentChatLengths;
-  final String messageSenderName;
+  final int chatLengthsAtTimeSent;
+  final String ownerMessageName;
 
   const MessageReply({
     required this.isReplyToMe,
@@ -16,9 +16,13 @@ class MessageReply {
     required this.messageType,
     required this.title,
     required this.replyMessageItemIndex,
-    required this.currentChatLengths,
-    required this.messageSenderName,
+    required this.chatLengthsAtTimeSent,
+    required this.ownerMessageName,
   });
+
+  @override
+  String toString() =>
+      '{isReplyToMe: $isReplyToMe, message: $message, messageType: $messageType,title: $title,replyMessageItemIndex: $replyMessageItemIndex, currentChatLengths: $chatLengthsAtTimeSent, ownerMessageName: $ownerMessageName}';
 }
 
 final StateProvider<MessageReply?> messageReplyStateProvider =

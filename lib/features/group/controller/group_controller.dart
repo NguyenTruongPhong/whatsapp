@@ -68,4 +68,14 @@ class GroupController {
   ) {
     return groupRepository.getGroupMembersSeenMessageDataStream(memberUIds);
   }
+
+  Future<List<UserModel>> getGroupMembersData({
+    required BuildContext context,
+    required String groupId,
+  }) async {
+    return groupRepository.getGroupMembersData(
+      context: context,
+      groupId: groupId,
+    );
+  }
 }

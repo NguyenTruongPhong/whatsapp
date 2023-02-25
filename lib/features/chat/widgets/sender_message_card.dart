@@ -14,7 +14,7 @@ class SenderMessageCard extends ConsumerWidget {
   final MessageTypeEnum messageType;
   final String receiverName;
   final String senderName;
-  final int messageItemIndex;
+  final int currentMessageItemIndex;
   final int chatLengths;
   final String avatarUrl;
   final bool isGroupChat;
@@ -41,7 +41,7 @@ class SenderMessageCard extends ConsumerWidget {
     this.isLastedMessage = false,
     this.membersSeenMessageUId,
     required this.currentUserName,
-    required this.messageItemIndex,
+    required this.currentMessageItemIndex,
     this.replyMessageItemIndex,
     required this.chatLengths,
     required this.message,
@@ -55,19 +55,21 @@ class SenderMessageCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // print('index: $currentMessageItemIndex');
     return SwipeTo(
       onRightSwipe: () {
-        ref.read(messageReplyStateProvider.notifier).update(
+   ref.read(messageReplyStateProvider.notifier).update(
               (state) => MessageReply(
                 isReplyToMe: false,
                 message: message,
                 messageType: messageType,
                 title: 'Replying to $senderName',
-                replyMessageItemIndex: messageItemIndex,
-                currentChatLengths: chatLengths,
-                messageSenderName: senderName,
+                replyMessageItemIndex: currentMessageItemIndex,
+                chatLengthsAtTimeSent: chatLengths,
+                ownerMessageName: senderName,
               ),
             );
+
       },
       child: Align(
         alignment: Alignment.centerLeft,

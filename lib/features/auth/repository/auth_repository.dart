@@ -32,9 +32,12 @@ class AuthRepository {
   Future<UserModel?> getCurrentUserDataOrByUId([String? uid]) async {
     UserModel? user;
     try {
+      if (_firebaseAuth.currentUser == null) {
+        return user;
+      }
       await _firebaseFirestore
           .collection('users')
-          .doc(uid ?? _firebaseAuth.currentUser!.uid)
+          .doc(uid ?? _firebaseAuth.currentUser?.uid)
           .get()
           .then((snap) {
         if (snap.exists) {
@@ -49,9 +52,13 @@ class AuthRepository {
   }
 
   String getCurrentUserUId() {
-    return _firebaseAuth.currentUser!.uid;
+    try {
+      return _firebaseAuth.currentUser!.uid;
+    } catch (e) {
+      debugPrint(e.toString());
+      rethrow;
+    }
   }
-
 
   Future<void> signInWithPhoneNumber({
     required String phoneNumber,
@@ -129,50 +136,67 @@ class AuthRepository {
     required File profilePic,
     required String name,
   }) async {
-    final User currentUser = _firebaseAuth.currentUser!;
+    try {
+      final User currentUser = _firebaseAuth.currentUser!;
 
-    String profilePicUrl = await ref
-            .read<CommonFirestoreRepository>(commonFirestoreRepositoryProvider)
-            .storeFileToFirestore(
-                file: profilePic, ref: 'userProfilePics/${currentUser.uid}') ??
-        'https://png.pngitem.com/pimgs/s/649-6490124_katie-notopoulos-katienotopoulos-i-write-about-tech-round.png';
+      String profilePicUrl = await ref
+              .read<CommonFirestoreRepository>(
+                  commonFirestoreRepositoryProvider)
+              .storeFileToFirestore(
+                  file: profilePic,
+                  ref: 'userProfilePics/${currentUser.uid}') ??
+          'https://png.pngitem.com/pimgs/s/649-6490124_katie-notopoulos-katienotopoulos-i-write-about-tech-round.png';
 
-    final UserModel user = UserModel(
-      uid: currentUser.uid,
-      name: name,
-      phoneNumber: currentUser.phoneNumber!,
-      profilePicUrl: profilePicUrl,
-      isOnline: true,
-      groupsId: [],
-    );
-
-    await _firebaseFirestore
-        .collection('users')
-        .doc(currentUser.uid)
-        .set(user.toDocument())
-        .then((value) {
-      Navigator.pushAndRemoveUntil(
-        context,
-        MaterialPageRoute(builder: (_) => const MobileLayoutScreen()),
-        (route) => false,
+      final UserModel user = UserModel(
+        uid: currentUser.uid,
+        name: name,
+        phoneNumber: currentUser.phoneNumber!,
+        profilePicUrl: profilePicUrl,
+        isOnline: true,
+        groupsId: [],
       );
-    });
+
+      await _firebaseFirestore
+          .collection('users')
+          .doc(currentUser.uid)
+          .set(user.toDocument())
+          .then((value) {
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (_) => const MobileLayoutScreen()),
+          (route) => false,
+        );
+      });
+    } catch (e) {
+      debugPrint(e.toString());
+      rethrow;
+    }
   }
 
   Stream<UserModel> getUserDataByUId(String userId) {
-    return _firebaseFirestore
-        .collection('users')
-        .doc(userId)
-        .snapshots()
-        .map((snap) => UserModel.fromSnapshot(snap));
+    try {
+      return _firebaseFirestore
+          .collection('users')
+          .doc(userId)
+          .snapshots()
+          .map((snap) => UserModel.fromSnapshot(snap));
+    } catch (e) {
+      debugPrint(e.toString());
+      rethrow;
+    }
   }
 
   Future<void> updateOnlineState(bool isOnline) async {
-    await _firebaseFirestore
-        .collection('users')
-        .doc(_firebaseAuth.currentUser!.uid)
-        .update({'isOnline': isOnline}).then(
-      (value) => print('updated online status.'),
-    );
+    try {
+      await _firebaseFirestore
+          .collection('users')
+          .doc(_firebaseAuth.currentUser!.uid)
+          .update({'isOnline': isOnline}).then(
+        (value) => print('updated online status.'),
+      );
+    } catch (e) {
+      debugPrint(e.toString());
+      rethrow;
+    }
   }
 }

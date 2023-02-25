@@ -54,6 +54,7 @@ class MyMessageCard extends ConsumerWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // print('index: $currentMessageItemIndex');
     return SwipeTo(
       onLeftSwipe: () {
         ref.read(messageReplyStateProvider.notifier).update(
@@ -63,8 +64,8 @@ class MyMessageCard extends ConsumerWidget {
                 messageType: messageType,
                 title: 'Replying to yourself',
                 replyMessageItemIndex: currentMessageItemIndex,
-                currentChatLengths: chatLengths,
-                messageSenderName: senderName,
+                chatLengthsAtTimeSent: chatLengths,
+                ownerMessageName: senderName,
               ),
             );
       },

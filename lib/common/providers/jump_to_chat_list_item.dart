@@ -1,13 +1,15 @@
 import 'package:riverpod/riverpod.dart';
+import 'package:equatable/equatable.dart';
 
-class JumpToChatListItem {
+class JumpToChatListItem extends Equatable {
   final int replyMessageItemIndex;
-  final int currentChatLengths; // chat lengths at reply text
+  final int chatLengthsAtTimeSent; // chat lengths at reply text time
   final int presentsChatLengths;
-  JumpToChatListItem({
+
+  const JumpToChatListItem({
     this.replyMessageItemIndex = 0,
     this.presentsChatLengths = 0,
-    this.currentChatLengths = 0,
+    this.chatLengthsAtTimeSent = 0,
   });
 
   // JumpToChatListItem copyWith({
@@ -19,8 +21,15 @@ class JumpToChatListItem {
   //     presentsChatLengths: chatLengths ?? this.presentsChatLengths,
   //   );
   // }
+  @override
+  String toString() {
+    return '{replyMessageItemIndex: $replyMessageItemIndex, chatLengthsAtTimeSent: $chatLengthsAtTimeSent, presentsChatLengths: $presentsChatLengths}';
+  }
+  
+  @override
+  List<Object?> get props => [replyMessageItemIndex, chatLengthsAtTimeSent, presentsChatLengths];
 }
 
 final jumpToChatListItemProvider = StateProvider<JumpToChatListItem>(((ref) {
-  return JumpToChatListItem();
+  return const JumpToChatListItem();
 }));

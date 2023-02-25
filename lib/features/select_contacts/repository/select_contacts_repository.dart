@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_contacts/flutter_contacts.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:whatsapp_ui/common/utils/utils.dart';
-import 'package:whatsapp_ui/features/auth/controller/auth_controller.dart';
 import 'package:whatsapp_ui/features/chat/screens/mobile_chat_screen.dart';
 
 final selectContactsRepositoryProvider =

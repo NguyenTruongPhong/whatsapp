@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:whatsapp_ui/common/providers/searching.dart';
 import 'package:whatsapp_ui/common/screens/error_screen.dart';
 import 'package:whatsapp_ui/common/widgets/loader.dart';
 import 'package:whatsapp_ui/features/models/status_model.dart';
@@ -28,10 +29,16 @@ class StatusContactsScreen extends ConsumerWidget {
                 ),
               );
             }
+
+            final filterStatuses = List.from(statuses.where(
+              (status) => status.ownerName
+                  .toLowerCase()
+                  .contains(ref.watch(searchingStateProvider).toLowerCase()),
+            ));
             return ListView.builder(
-              itemCount: statuses.length,
+              itemCount: filterStatuses.length,
               itemBuilder: (context, index) {
-                final statusData = statuses[index];
+                final statusData = filterStatuses[index];
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: InkWell(

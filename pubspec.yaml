@@ -43,7 +43,7 @@ dependencies:
   image_picker: ^0.8.6
   flutter_contacts: ^1.1.5+1
   uuid: ^3.0.7
-  intl: ^0.18.0
+  intl: ^0.17.0
   cached_network_image: ^3.2.3
   video_player: ^2.4.10
   cached_video_player: ^2.0.3
@@ -52,12 +52,16 @@ dependencies:
   flutter_sound: ^9.2.13
   path_provider: ^2.0.11
   permission_handler: ^10.2.0
-  audioplayers: ^3.0.1
+  audioplayers: ^1.0.1
   swipe_to: ^1.0.2
   scrollable_positioned_list: ^0.3.5
   story_view: ^0.14.0
-  # enough_giphy_flutter: ^0.3.0
-  # flutter_platform_widgets: ^1.11.1
+  agora_uikit: ^1.1.2
+  zego_uikit_prebuilt_call: ^2.0.0
+  zego_uikit_signaling_plugin: ^2.0.0
+  multiple_stream_builder: ^3.0.2
+  equatable: ^2.0.5
+
 
 dev_dependencies:
   flutter_test:
@@ -86,7 +90,6 @@ flutter:
     - assets/backgroundImage.png
     - assets/bg.png
     - assets/empty_person.png
-  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

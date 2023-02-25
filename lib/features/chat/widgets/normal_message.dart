@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:whatsapp_ui/colors.dart';
@@ -55,9 +56,10 @@ class _NormalMessageState extends ConsumerState<NormalMessage> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Column(
-      crossAxisAlignment: widget.isSenderMessage
-          ? CrossAxisAlignment.start
-          : CrossAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.end,
+      // widget.isSenderMessage
+      //     ? CrossAxisAlignment.start
+      //     : CrossAxisAlignment.end,
       mainAxisSize: MainAxisSize.min,
       children: [
         GestureDetector(
@@ -69,15 +71,7 @@ class _NormalMessageState extends ConsumerState<NormalMessage> {
                 : MainAxisAlignment.end,
             children: [
               if (widget.isGroupChat && widget.avatarUrl != null) ...[
-                Padding(
-                  padding: const EdgeInsets.only(left: 15, bottom: 7),
-                  child: CircleAvatar(
-                    radius: 15,
-                    backgroundImage: NetworkImage(
-                      widget.avatarUrl!,
-                    ),
-                  ),
-                ),
+                buildMessageAvatar(widget: widget),
               ],
               ConstrainedBox(
                 constraints: BoxConstraints(
@@ -179,7 +173,8 @@ class _NormalMessageState extends ConsumerState<NormalMessage> {
         stream: ref
             .watch(groupControllerProvider)
             .getGroupMembersSeenMessageDataStream(
-                widget.membersSeenMessageUId!),
+              widget.membersSeenMessageUId!,
+            ),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             List<UserModel> seenMessageMembers = snapshot.data!;
@@ -243,10 +238,12 @@ class _NormalMessageState extends ConsumerState<NormalMessage> {
                           .map(
                             (seenMessageMember) => Padding(
                               padding: const EdgeInsets.all(2.0),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundImage: NetworkImage(
-                                  seenMessageMember.profilePicUrl,
+                              child: CachedNetworkImage(
+                                imageUrl: seenMessageMember.profilePicUrl,
+                                imageBuilder: (context, imageProvider) =>
+                                    CircleAvatar(
+                                  radius: 8,
+                                  backgroundImage: imageProvider,
                                 ),
                               ),
                             ),
@@ -261,6 +258,29 @@ class _NormalMessageState extends ConsumerState<NormalMessage> {
             return const SizedBox();
           }
         },
+      ),
+    );
+  }
+}
+
+class buildMessageAvatar extends StatelessWidget {
+  const buildMessageAvatar({
+    Key? key,
+    required this.widget,
+  }) : super(key: key);
+
+  final NormalMessage widget;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 15, bottom: 7),
+      child: CachedNetworkImage(
+        imageUrl: widget.avatarUrl!,
+        imageBuilder: (context, imageProvider) => CircleAvatar(
+          radius: 15,
+          backgroundImage: imageProvider,
+        ),
       ),
     );
   }

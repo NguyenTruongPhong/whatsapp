@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:whatsapp_ui/common/utils/utils.dart';
 import 'package:whatsapp_ui/common/widgets/custom_button.dart';
+import 'package:whatsapp_ui/common/widgets/loader.dart';
 import 'package:whatsapp_ui/features/auth/controller/auth_controller.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
@@ -26,6 +27,7 @@ class LoginScreen extends ConsumerStatefulWidget {
 class _LoginScreenState extends ConsumerState<LoginScreen> {
   final phoneController = TextEditingController();
   String phoneCode = '';
+  bool isLoading = false;
 
   @override
   void dispose() {
@@ -47,6 +49,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   }
 
   Future<void> sentPhoneNumber() async {
+    setState(() {
+      isLoading = true;
+    });
     final String phoneNumber = phoneController.text.trim();
     if (phoneCode.isEmpty) {
       showSnackbar(
@@ -60,6 +65,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     await ref
         .read<AuthController>(authControllerProvider)
         .singInWithPhoneNumber(context, '$phoneCode$phoneNumber');
+
+    isLoading = false;
   }
 
   @override
@@ -73,70 +80,72 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         // backgroundColor: backgroundColor,
         elevation: 0,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const SizedBox(
-                  height: 20,
-                ),
-                Center(
-                  child: Text(
-                    'WhatsApp will need to verify your phone number.',
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.bodyText1,
-                  ),
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                TextButton(
-                  onPressed: pickCountry,
-                  child: const Text('Pick country'),
-                ),
-                const SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(phoneCode),
-                    const SizedBox(
-                      width: 10,
-                    ),
-                    Expanded(
-                      child: TextField(
-                        decoration: const InputDecoration(
-                          hintText: 'phone number',
+      body: isLoading
+          ? const Loader()
+          : Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      Center(
+                        child: Text(
+                          'WhatsApp will need to verify your phone number.',
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context).textTheme.bodyText1,
                         ),
-                        controller: phoneController,
-                        keyboardType: TextInputType.number,
-                        onChanged: (val) {},
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      TextButton(
+                        onPressed: pickCountry,
+                        child: const Text('Pick country'),
+                      ),
+                      const SizedBox(
+                        height: 30,
+                      ),
+                      Row(
+                        children: [
+                          Text(phoneCode),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          Expanded(
+                            child: TextField(
+                              decoration: const InputDecoration(
+                                hintText: 'phone number',
+                              ),
+                              controller: phoneController,
+                              keyboardType: TextInputType.number,
+                              onChanged: (val) {},
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  SafeArea(
+                    left: false,
+                    right: false,
+                    top: false,
+                    child: SizedBox(
+                      width: size.width * 0.3,
+                      child: CustomButton(
+                        text: 'NEXT',
+                        onPress: sentPhoneNumber,
                       ),
                     ),
-                  ],
-                ),
-              ],
-            ),
-            SafeArea(
-              left: false,
-              right: false,
-              top: false,
-              child: SizedBox(
-                width: size.width * 0.3,
-                child: CustomButton(
-                  text: 'NEXT',
-                  onPress: sentPhoneNumber,
-                ),
+                  )
+                ],
               ),
-            )
-          ],
-        ),
-      ),
+            ),
     );
   }
 }
